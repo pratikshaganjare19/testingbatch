@@ -32,11 +32,11 @@ public class TestClassactitime {
 			//public void afterMethod() {
 				//System.out.println("afterMethod");
 			}
-			@AfterClass
-			public void afterClass() {
-				System.out.println("afterClass");
+			//@AfterClass
+			//public void afterClass() {
+				//System.out.println("afterClass");
 			}
-		}
+		
 
 
 
