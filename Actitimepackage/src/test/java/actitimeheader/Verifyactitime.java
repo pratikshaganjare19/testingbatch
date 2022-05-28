@@ -17,10 +17,10 @@ import actitmepakagemaveen.Loginpage;
 import browsersetting.Base;
 
 public class Verifyactitime extends Base{
-	//WebDriver driver;
-	//ActitimeHeader actitimeHeader;
-	//Loginpage loginpage;
-	//@Parameters ("browser")
+	WebDriver driver;
+	ActitimeHeader actitimeHeader;
+	Loginpage loginpage;
+	@Parameters ("browser")
 	@BeforeTest
 	public void launchbrowser(String browser){
 	if(browser.equals("ChromeBrowser"))
