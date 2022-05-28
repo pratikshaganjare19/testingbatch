@@ -41,11 +41,11 @@ public class Verifyactitime extends Base{
 	
 	@BeforeMethod
 	public void logintoapplication() {
-	driver.get("https://online.actitime.com/Vedang/login.do");
-	loginpage.sendusername();
-	loginpage.sendpassword();
-	loginpage.selectkeepLoggedInCheckBox();
-	loginpage.loginbutton();
+	//driver.get("https://online.actitime.com/Vedang/login.do");
+	//loginpage.sendusername();
+	//loginpage.sendpassword();
+	//loginpage.selectkeepLoggedInCheckBox();
+	//loginpage.loginbutton();
 	}
 	@Test
 	public void verifyTasktab() {
