@@ -28,9 +28,9 @@ public class TestClassactitime {
 			public void testC() {
 				System.out.println("testclass1 c");
 			}
-			@AfterMethod
-			public void afterMethod() {
-				System.out.println("afterMethod");
+			//@AfterMethod
+			//public void afterMethod() {
+				//System.out.println("afterMethod");
 			}
 			@AfterClass
 			public void afterClass() {
@@ -39,4 +39,4 @@ public class TestClassactitime {
 		}
 
 
-}
+
